@@ -31,7 +31,6 @@
 }
 
 @layer utilities {
-
   /* START of Typography */
   .h-num {
     @apply font-inter text-[72px] font-bold leading-[84px];
@@ -150,10 +149,8 @@
   }
 
   .scroll-hide {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
   /* END of Common */
